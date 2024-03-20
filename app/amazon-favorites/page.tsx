@@ -1,0 +1,143 @@
+import React from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import Link from "next/link";
+import Image from "next/image";
+
+const amazonData = {
+  amazon: [
+    {
+      id: "1",
+      title: "GoPro 8",
+      image: "https://m.media-amazon.com/images/I/71jVq6t7DmL._AC_SX679_.jpg",
+      description:
+        "GoPro HERO8 Black E-Commerce Packaging - Waterproof Digital Action Camera with Touch Screen 4K HD Video 12MP Photos Live Streaming Stabilization",
+      link: "https://www.amazon.com/dp/B091G1TJ32/ref=cm_sw_r_as_gl_api_gl_i_D0H356CERGZ2R771W8XF?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "2",
+      title: "Insta360 Cam Kit",
+      image: "https://m.media-amazon.com/images/I/51rsQck8E9L._AC_SX679_.jpg",
+      description:
+        "Insta360 Cam Kit Insta360 ONE X2 360 Degree Waterproof Action Camera, 5.7K 360, Stabilization, Touch Screen, AI Editing, Live Streaming, Webcam, Voice Control",
+      link: "https://www.amazon.com/dp/B0874PHKL4/ref=cm_sw_r_as_gl_api_gl_i_RDZVH4HJ6E78FRASGJE8?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "3",
+      title: "GoPro Wired Case",
+      image: "https://m.media-amazon.com/images/I/714GCgH-vkS._AC_SX679_.jpg",
+      description:
+        "X~PWR H8 All-Weather External Power Kit for GoPro HERO8 with 66'' Cable",
+      link: "https://www.amazon.com/dp/B0971WBB4C/ref=cm_sw_r_as_gl_api_gl_i_85C4YJMC3T1P7RSK7GQG?linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "4",
+      title: "RAM Mounts RAP-401U Tough-Claw",
+      image: "https://m.media-amazon.com/images/I/41dfUAwvvtL._AC_SX679_.jpg",
+      description:
+        "RAM Mounts RAP-401U Tough-Claw Large Clamp Ball Base with C Size 1.5' Ball for Rails 1' to 2.25' in Diameter",
+      link: "https://www.amazon.com/dp/B00KOENV30/ref=cm_sw_r_as_gl_api_gl_i_X84A8MZBSV0952S11VRX?linkCode=ml1&tag=thebeatentr0d-20&th=1",
+    },
+    {
+      id: "5",
+      title: "Small Mount Kit",
+      image: "https://m.media-amazon.com/images/I/61ixQiTfI3L._AC_SX679_.jpg",
+      description:
+        "Taisioner Super Clamp Mount Double Ball Head Adapter Compatible with GoPro AKASO DJI Action or DSLR Digital Camera Monitor / LED Lights / Ronin-M/Ronin MX / Freefly MOVI Accessories",
+      link: "https://www.amazon.com/dp/B08RDGDZJG/ref=cm_sw_r_as_gl_api_gl_i_1S8BM9F24KXJBP90WNEH?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "6",
+      title: "Medium Mount Kit",
+      image: "https://m.media-amazon.com/images/I/61ixQiTfI3L._AC_SX679_.jpg",
+      description:
+        "RAM Mounts RAP-B-404U Tough-Claw Medium Clamp Base with B Size 1' Ball for Rails 1' to 1.875' in Diameter",
+      link: "https://www.amazon.com/dp/B00KOEQXDU/ref=cm_sw_r_as_gl_api_gl_i_WNT9MM8H3CWKDJSFJ4F0?linkCode=ml1&tag=thebeatentr0d-20&th=1",
+    },
+    {
+      id: "7",
+      title: "2 Pack Charging Cables",
+      image: "https://m.media-amazon.com/images/I/71sxLejXf9L._SX522_.jpg",
+      description:
+        "USAMS ISAIBELL Multi Charging Cable 2Pack 4FT 4 in 1 Nylon Braided Multiple USB Fast Charging Cord Adapter Type C Micro USB Port Connectors Compatible Cell Phones Tablets and More",
+      link: "https://www.amazon.com/dp/B07QXVCFD1/ref=cm_sw_r_as_gl_api_gl_i_YP5AS8ENN1K10HE7AB2T?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "8",
+      title: "MuffPot Food Warmer",
+      image: "https://m.media-amazon.com/images/I/61Z0Oq7-IKL._AC_SX679_.jpg",
+      description:
+        "The Original MuffPot Exhaust Food Warmer for Motorsports Vehicles. Snowmobile, ATV, UTV, and Motorcycles",
+      link: "https://www.amazon.com/dp/B003CJ7568/ref=cm_sw_r_as_gl_api_gl_i_X9YDF250ZFR55T4C394Q?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+    {
+      id: "9",
+      title: "Rechargeable Work Light",
+      image: "https://m.media-amazon.com/images/I/61Z0Oq7-IKL._AC_SX679_.jpg",
+      description:
+        "The Original MuffPot Exhaust Food Warmer for Motorsports Vehicles. Snowmobile, ATV, UTV, and Motorcycles",
+      link: "https://www.amazon.com/dp/B003CJ7568/ref=cm_sw_r_as_gl_api_gl_i_X9YDF250ZFR55T4C394Q?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+    },
+  ],
+};
+export default function amazonFavorites() {
+  return (
+    <div className="container px-10 mx-auto mb-8">
+      <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
+        <div
+          className="pl-3 w-full"
+          style={{ borderLeft: "thin solid #EA580C" }}
+        >
+          <h2 style={{ borderBottom: "thin solid #ea580c" }}>
+            Amazon Favorites
+          </h2>
+          <h4 style={{ paddingBottom: "20px" }}>
+            We get asked often about the equipment and accessories we use while
+            filming out on the trail. Here are a few links to our most reliable
+            and favorite products. Support our channel when you follow these
+            links to the Amazon website as we get the referral credit from
+            Amazon. Got questions? Drop us a line!
+          </h4>
+          <div className="grid md:grid-cols-3 gap-8">
+            {amazonData.amazon.map((a) => (
+              <Card key={a.id} className="flex flex-col justify-between">
+                <CardHeader className="flex-row gap-4 items-center">
+                  <div>
+                    <CardTitle className="border-b border-orange-600">
+                      {a.title}
+                    </CardTitle>
+                    <CardContent className="pt-4">
+                      <Image
+                        src={a.image}
+                        alt={a.title}
+                        width={200}
+                        height={200}
+                      ></Image>
+                    </CardContent>
+                    <CardDescription>{a.description}</CardDescription>
+                  </div>
+                </CardHeader>
+                <CardFooter className="flex justify-between pl-3">
+                  {/* code that floats left/right */}
+                  <div className="w-full content-end">
+                    <Link href={a.link} target="_blank">
+                      <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+                        View It
+                      </button>
+                    </Link>
+                  </div>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
