@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Sheet from "../components/Sheet";
 const Header = () => {
   return (
     <div className="container px-10 mx-auto mb-8">
@@ -22,11 +23,11 @@ const Header = () => {
                         </span> 
                     </Link>
                 ))} */}
-          <Link href={`/blog/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
-              Contact
-            </span>
-          </Link>
+
+          <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
+            <Sheet />
+          </span>
+
           <Link href={`/about/`}>
             <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
               About

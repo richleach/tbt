@@ -18,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ backgroundColor: "black" }}>
+      <body
+        className={inter.className}
+        style={{
+          background:
+            "radial-gradient(circle, rgba(172,172,172,1) 0%, rgba(0,0,0,1) 60%)",
+        }}
+      >
         <Header />
         {children}
         <Footer />
