@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
+import Sheet from "../components/Sheet";
 
 function getYear() {
   return new Date().getFullYear();
@@ -42,10 +43,18 @@ function Footer() {
                 target="_blank"
               />
             </nav>
-            <div className="align-bottom text-left mx-auto">
+            <div className="align-bottom text-left mx-auto text-orange-600 ml-1 mr-1">
               &copy; Copyright {getYear()} The Beaten Trail, LLC. All Rights
               Reserved.
             </div>
+            <Link href={`/about/`}>
+              <span className="ml-4 mr-4 font-semibold text-orange-600 cursor-pointer">
+                About
+              </span>
+            </Link>
+            <span className="font-semibold text-orange-600 cursor-pointer text-left">
+              <Sheet />
+            </span>
           </div>
         </div>
       </footer>

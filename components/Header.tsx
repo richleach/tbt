@@ -15,7 +15,7 @@ const Header = () => {
             />
           </Link>
         </div>
-        <div className="flex items-center md:float-left md:contents mx-auto">
+        <div className="block md:float-left md:contents">
           {/* {categories.map((category) => (
                     <Link key={category.name} href={`/category/${category.slug}`}>
                        <span className='mt-2 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right'>
@@ -24,23 +24,18 @@ const Header = () => {
                     </Link>
                 ))} */}
 
-          <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
+          {/* <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
             <Sheet />
-          </span>
+          </span> */}
 
-          <Link href={`/about/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
-              About
-            </span>
-          </Link>
           <Link href={`/blog/`}>
             <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
               Partners &amp; Friends
             </span>
           </Link>
-          <Link href={`/blog/`}>
+          <Link href={`/store/`}>
             <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
-              Gear
+              Store
             </span>
           </Link>
 

@@ -15,6 +15,12 @@ const nextConfig = {
         port: "",
         pathname: "/vi/**",
       },
+      {
+        protocol: "https",
+        hostname: "vangogh.teespring.com",
+        port: "",
+        pathname: "/v3/**",
+      },
     ],
   },
 };
