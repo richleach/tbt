@@ -61,7 +61,7 @@ const storeData = {
       id: "5",
       title: "New Designs & Products In the Works!",
       image:
-        "https://vangogh.teespring.com/v3/image/mwM4JxDS_1D5i3egetyD_PjV_RU/800/800.jpg",
+        "https://vangogh.teespring.com/v3/image/YNq5K6ye7FJqRGfrYX9ES56z6tY/800/800.jpg",
       description:
         "We have an entire dungeon of artists, copy writers and screen printers cranking out new designs all the time - check back often!",
       link: "https://my-store-f43ddb.creator-spring.com/",
