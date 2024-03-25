@@ -32,64 +32,91 @@ export default function Home() {
             Trail Therapy
           </h2>
         </div>
-        {/* join our next ride */}
+        {/* visit our store */}
         <div
           className="col-start-4 p-2 mb-4 text-black bg-white border-2 rounded-lg md:col-span-2 md:row-span-2  md:mb-0"
           style={{
-            backgroundImage: 'url("../images/inTheWoods.png")',
+            backgroundImage: 'url("../images/storesOpen.png")',
             backgroundSize: "cover",
           }}
         >
-          <div className="flex justify-center" style={{ marginTop: "20px" }}>
-            <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2">
-              Join Our Next Ride
-            </button>
+          <div className="flex justify-center" style={{ marginTop: "10px" }}>
+            <Link href={`/store/`}>
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+                Our Store is Now Open
+              </button>
+            </Link>
           </div>
+          <Link href={`/store/`}>
+            <Image
+              src="/images/cart.png"
+              height={177}
+              width={223}
+              alt="Visit our store"
+              className="mx-auto drop-shadow-xl rounded-lg align-middle mt-10"
+            />
+          </Link>
         </div>
         {/* watch us on youtube */}
-        <div
-          className="col-start-4 row-start-3 mb-4 bg-white border-2 rounded-lg md:mb-1 md:col-span-2 md:row-span-2"
-          style={{
-            backgroundImage: 'url("../images/youtubeScreen.png")',
-            backgroundSize: "cover",
-          }}
-        >
-          <div className="flex justify-center" style={{ marginTop: "20px" }}>
-            <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2">
-              Watch Us On Youtube
-            </button>
+        <div className="col-start-4 row-start-3 mb-5 md:mb-3 border-2 rounded-lg  md:col-span-2 md:row-span-2 bg-white">
+          <div className="flex justify-center" style={{ marginTop: "10px" }}>
+            <Link href={`/videos/`}>
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+                Watch Us On Youtube
+              </button>
+            </Link>
           </div>
+          <Link href={`/videos/`}>
+            <Image
+              src="/images/youtubeLogo.png"
+              height={126}
+              width={400}
+              alt="Visit our Youtube site"
+              className="mx-auto drop-shadow-xl rounded-lg align-middle mt-10 mb-5"
+            />
+          </Link>
         </div>
         {/* amazon products */}
         <div
-          className="col-start-4 row-start-4 bg-white border-2 rounded-lg md:col-span-2 md:row-span-2"
+          className="col-start-4 row-start-4 bg-white border-2 rounded-lg md:col-span-2 md:row-span-2 md:-mt-3"
           style={{
             backgroundImage: 'url("../images/amazonScreen.png")',
             backgroundSize: "cover",
           }}
         >
-          <div className="flex justify-center" style={{ marginTop: "20px" }}>
-            <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2">
-              Amazon Products
-            </button>
+          <div
+            className="flex justify-center mb-2"
+            style={{ marginTop: "10px" }}
+          >
+            <Link href={`/amazon-favorites/`}>
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+                Featured Amazon Product
+              </button>
+            </Link>
           </div>
-          <h4 className="mt-2 text-xl leading-8 text-center">
+          <Link href={`/amazon-favorites/`}>
             <Image
-              src="/images/amazonMuffPott.png"
-              height={162}
-              width={140}
-              alt="Amazon Muff Pott"
-            />
-          </h4>
+              src="https://m.media-amazon.com/images/I/71BHagROfAL._AC_SX679_.jpg"
+              height={172}
+              width={150}
+              alt="LED Rechargeable Work Light"
+              className="mx-auto drop-shadow-xl border-2 border-orange-600 rounded-lg"
+            />{" "}
+            <div className="flex justify-center" style={{ marginTop: "10px" }}>
+              <button className="px-4 text-center  text-2xl text-black-900 font-semibold bg-white rounded-full border border-black-900 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 drop-shadow-lg">
+                LED Rechargeable Work Light
+              </button>
+            </div>
+          </Link>
           <div
             className="flex justify-center"
-            style={{ marginTop: "10px", marginBottom: "20px" }}
+            style={{ marginTop: "10px", marginBottom: "10px" }}
           >
             &nbsp;
           </div>
         </div>
         {/* panorama */}
-        <div className=" col-span-5 row-start-5 text-white bg-black border-2 rounded-lg md:col-span-5 md:row-span-5 flex justify-center">
+        <div className=" col-span-5 row-start-5 text-white bg-black border-2 rounded-lg md:col-span-5 md:row-span-5 flex justify-center mt-5 md:mt-2">
           <Image
             src="/images/the-beaten-trail-panorama.png"
             width={1300}

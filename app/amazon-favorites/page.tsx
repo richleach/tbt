@@ -78,11 +78,11 @@ const amazonData = {
     },
     {
       id: "9",
-      title: "Rechargeable Work Light",
-      image: "https://m.media-amazon.com/images/I/61Z0Oq7-IKL._AC_SX679_.jpg",
+      title: "LED Rechargeable Work Light",
+      image: "https://m.media-amazon.com/images/I/71BHagROfAL._AC_SX679_.jpg",
       description:
-        "The Original MuffPot Exhaust Food Warmer for Motorsports Vehicles. Snowmobile, ATV, UTV, and Motorcycles",
-      link: "https://www.amazon.com/dp/B003CJ7568/ref=cm_sw_r_as_gl_api_gl_i_X9YDF250ZFR55T4C394Q?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+        "LED Work Light Rechargeable, 2 COB 2500LM Folding Portable Flood Light with Magnetic Base and 360° Rotation Stand, Waterproof Spotlights for Camping Car Repairing Emergency Job Site Lighting (2, Red)",
+      link: "https://www.amazon.com/dp/B0948RTTDW/ref=cm_sw_r_as_gl_api_gl_i_3441E9QFCWR0CWGPAS0F?linkCode=ml1&tag=thebeatentr0d-20&th=1",
     },
   ],
 };

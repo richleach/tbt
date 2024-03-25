@@ -84,7 +84,15 @@ export default function store() {
             <br />
             &quot;Do you have any Beaten Trail coffee mugs?!&quot; <br />
             <br />
-            <h3 className="font-bold">YES WE DO!</h3>
+            <h3
+              className="font-bold drop-shadow-lg"
+              style={{
+                borderBottom: "thin solid #E5E7EB",
+                borderTop: "thin solid #E5E7EB",
+              }}
+            >
+              YES WE DO!
+            </h3>
             <br />
             <br />
           </h4>
