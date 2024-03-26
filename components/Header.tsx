@@ -28,7 +28,7 @@ const Header = () => {
             <Sheet />
           </span> */}
 
-          <Link href={`/blog/`}>
+          <Link href={`/partners-and-friends/`}>
             <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
               Partners &amp; Friends
             </span>

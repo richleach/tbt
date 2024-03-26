@@ -17,7 +17,7 @@ export default function rideWithUs() {
         <div className="pl-3" style={{ borderLeft: "thin solid #EA580C" }}>
           <h2 style={{ borderBottom: "thin solid #ea580c" }}>Ride With Us</h2>
           <div
-            className="p-2 mb-4 mt-4 text-black bg-white border-2 rounded-lg md:col-span-2 md:row-span-2  md:mb-0"
+            className="p-2 mb-4 mt-4 text-black bg-white border-2 rounded-lg md:col-span-2 md:row-span-2  md:mb-0 drop-shadow-xl"
             style={{
               backgroundImage: 'url("../images/groupShot01.png")',
               backgroundSize: "cover",
