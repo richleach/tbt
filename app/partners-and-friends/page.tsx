@@ -46,7 +46,7 @@ const amazonData = {
     {
       id: "5",
       title: "PA Dirt Riders",
-      image: "/images/partners/paDirtRiders.png",
+      image: "/images/partners/paDirtriders.png",
       description:
         "Taisioner Super Clamp Mount Double Ball Head Adapter Compatible with GoPro AKASO DJI Action or DSLR Digital Camera Monitor / LED Lights / Ronin-M/Ronin MX / Freefly MOVI Accessories",
       link: "https://www.padirtriders.com/",
@@ -78,7 +78,7 @@ const amazonData = {
     {
       id: "9",
       title: "Knit Decor Gifts",
-      image: "/images/partners/knitDecorgifts.png",
+      image: "/images/partners/knitDecorGifts.png",
       description:
         "LED Work Light Rechargeable, 2 COB 2500LM Folding Portable Flood Light with Magnetic Base and 360° Rotation Stand, Waterproof Spotlights for Camping Car Repairing Emergency Job Site Lighting (2, Red)",
       link: "https://www.etsy.com/shop/KnitDecorGifts",
@@ -86,7 +86,7 @@ const amazonData = {
     {
       id: "10",
       title: "DTF Powersports",
-      image: "/images/partners/dtfPowersports.png",
+      image: "/images/partners/dtfPowerSports.png",
       description:
         "LED Work Light Rechargeable, 2 COB 2500LM Folding Portable Flood Light with Magnetic Base and 360° Rotation Stand, Waterproof Spotlights for Camping Car Repairing Emergency Job Site Lighting (2, Red)",
       link: "https://dtfpowersports.com/",
