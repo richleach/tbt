@@ -7,34 +7,42 @@ export default function Home() {
       <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
         <div className="pl-3" style={{ borderLeft: "thin solid #EA580C" }}>
           <h2 style={{ borderBottom: "thin solid #ea580c" }}>About Us</h2>
-
-          <h3>Michael Herrmann - Head Honcho</h3>
           <Image
-            src="/images/youtubeScreen.png"
-            height={200}
-            width={200}
+            src="/images/MHhelmet.png"
+            height={480}
+            width={650}
             alt="da man...."
+            className="drop-shadow-lg rounded-xl m-4"
           />
+          <p className="font-bold underline">Michael Herrmann - Head Honcho</p>
+          <h3>Getting Started</h3>
           <p>
-            Some damn good p tag stuff goes in here. Some damn good p tag stuff
-            goes in here. Some damn good p tag stuff goes in here.{" "}
+            Michael started out in the pandemic, joining the motorsports riding
+            arena once again with a small razor trail 50 inch side-by-side,
+            which started many park reviews and accessory episodes. Since
+            growing the riding group he has reviewed dozens of regional parks as
+            well as ridden trails in California, Pennsylvania, Georgia, New
+            York, New Jersey, and Tennessee for unique riding areas for the ATV
+            and UTV enthusiast.
           </p>
-          <h3>h3 subtitle here</h3>
+          <h3>Way Back In The Day</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptatibus nesciunt, velit ipsam eos voluptatum molestiae et harum
-            atque aut aliquid non reprehenderit, fugit iusto magni amet
-            consectetur dolorum at repellendus illo accusantium. Dignissimos
-            quisquam soluta eligendi, odit, id debitis ipsum veniam, nobis
-            libero reiciendis accusamus facere repellendus unde aut pariatur?{" "}
+            Having grown up in NJ, a younger-aged Michael used to ride Yamaha YZ
+            80 Honda, CT 70s and other various dirt bikes, homemade go karts and
+            pit bikes. Fast forward and the current ride is a Grizzly 700 XTR as
+            well as a Honda Talon 1000R side-by-side. The team rides include
+            several Can-Am, Kawasaki, CFMoto, Polaris and many others brands and
+            takes great efforts to ride a wide variety of vehicles on just as
+            many trails.
           </p>
-          <h3>Smokey The Bear</h3>
-          <Image
-            src="/images/smokey.png"
-            height={200}
-            width={200}
-            alt="da bear...."
-          />
+          <h3>A Pilot, Video Editor and Author oh my!</h3>
+          <p>
+            Michael is a part 107 drone certified pilot. Should you need any
+            additional footage for your real estate or video channel he is
+            available for hire as well as video editing and assistance with
+            setting up your own YouTube channel. Please contact
+            TheBeatentrailllc@gmail.com.
+          </p>
         </div>
       </main>
     </div>

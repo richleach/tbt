@@ -39,7 +39,7 @@ const Header = () => {
             </span>
           </Link>
 
-          <Link href={`/contact/`}>
+          <Link href={`/ride-with-us/`}>
             <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
               Ride With Us
             </span>
