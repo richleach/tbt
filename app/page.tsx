@@ -103,7 +103,7 @@ export default function Home() {
               className="mx-auto drop-shadow-xl border-2 border-orange-600 rounded-lg"
             />{" "}
             <div className="flex justify-center" style={{ marginTop: "10px" }}>
-              <button className="px-4 text-center  text-2xl text-black-900 font-semibold bg-white rounded-full border border-black-900 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 drop-shadow-lg">
+              <button className="px-4 text-center  text-2xl text-black-900 font-semibold bg-white rounded-full border-orange-600 border hover:text-white hover:bg-orange-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 drop-shadow-lg">
                 LED Rechargeable Work Light
               </button>
             </div>
