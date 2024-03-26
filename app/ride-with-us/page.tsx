@@ -33,7 +33,7 @@ export default function rideWithUs() {
               some of the best trails in California, Pennsylvania, Georgia, New
               York, New Jersey, and even Tennessee.
             </p>
-            <h3>When Do Ride?</h3>
+            <h3>When Do We Ride?</h3>
             <p>
               All the time! Kinda. We&apos;ve ridden in all four seasons and
               have braved all of the elements.{" "}

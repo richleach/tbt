@@ -22,11 +22,11 @@ const amazonData = {
     },
     {
       id: "2",
-      title: "Insta360 Cam Kit",
-      image: "https://m.media-amazon.com/images/I/51rsQck8E9L._AC_SX679_.jpg",
+      title: "Insta360 X3 Get Set Kit",
+      image: "https://m.media-amazon.com/images/I/71U7NML1TLL._AC_SX679_.jpg",
       description:
-        "Insta360 Cam Kit Insta360 ONE X2 360 Degree Waterproof Action Camera, 5.7K 360, Stabilization, Touch Screen, AI Editing, Live Streaming, Webcam, Voice Control",
-      link: "https://www.amazon.com/dp/B0874PHKL4/ref=cm_sw_r_as_gl_api_gl_i_RDZVH4HJ6E78FRASGJE8?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+        "Insta360 X3 - Get Set Kit Waterproof 360 Action Camera with 1/2&quot;  48MP Sensors, 5.7K 360 Active HDR Video, 72MP 360 Photo, 4K Single-Lens, 60fps Me Mode, Stabilization, 2.29&quot;  Touchscreen, AI Editing",
+      link: "https://www.amazon.com/dp/B0BBKYJ13R/ref=cm_sw_r_as_gl_api_gl_i_424DF206ETJEZHEM2GAM?linkCode=ml1&tag=thebeatentr0d-20",
     },
     {
       id: "3",
