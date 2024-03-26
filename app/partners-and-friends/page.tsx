@@ -132,13 +132,13 @@ export default function partnersAndFriends() {
             {amazonData.amazon.map((a) => (
               <Card key={a.id} className="flex flex-col justify-between">
                 <CardHeader className="flex-row gap-4 items-center">
-                  <Link href={a.link} target="_blank">
-                    <div className="w-full">
-                      <CardTitle className="border-b border-orange-600">
-                        {a.title}
-                      </CardTitle>
-                      <CardContent className="pt-4 items-center align-middle">
-                        <center>
+                  <div className="w-full">
+                    <CardTitle className="border-b border-orange-600">
+                      {a.title}
+                    </CardTitle>
+                    <CardContent className="pt-4 items-center align-middle">
+                      <center>
+                        <Link href={a.link} target="_blank">
                           <Image
                             src={a.image}
                             alt={a.title}
@@ -146,13 +146,11 @@ export default function partnersAndFriends() {
                             height={200}
                             className="rounded-lg drop-shadow-lg border-2 border-slate-600"
                           />
-                        </center>
-                      </CardContent>
-                      <CardDescription className="w-full">
-                        &nbsp;
-                      </CardDescription>
-                    </div>
-                  </Link>
+                        </Link>
+                      </center>
+                    </CardContent>
+                    <CardDescription className="w-full">&nbsp;</CardDescription>
+                  </div>
                 </CardHeader>
                 {/* <CardFooter className="flex justify-between pl-3">
                   
