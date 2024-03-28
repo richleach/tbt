@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Sheet from "../components/Sheet";
+import Contact from "@/app/contact/page";
 
 function getYear() {
   return new Date().getFullYear();
@@ -52,9 +53,11 @@ function Footer() {
                 About
               </span>
             </Link>
-            <span className="font-semibold text-orange-600 cursor-pointer text-left">
-              <Sheet />
-            </span>
+            <Link href={`/contact/`}>
+              <span className="ml-4 mr-4 font-semibold text-orange-600 cursor-pointer">
+                Contact
+              </span>
+            </Link>
           </div>
         </div>
       </footer>
