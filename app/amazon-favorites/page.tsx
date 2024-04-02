@@ -92,9 +92,9 @@ export default function amazonFavorites() {
       <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
         <div
           className="pl-3 w-full"
-          style={{ borderLeft: "thin solid #EA580C" }}
+          style={{ borderLeft: "thin solid #9333EA" }}
         >
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>
             Amazon Favorites
           </h2>
           <h4 style={{ paddingBottom: "20px" }}>
@@ -109,7 +109,7 @@ export default function amazonFavorites() {
               <Card key={a.id} className="flex flex-col justify-between">
                 <CardHeader className="flex-row gap-4 items-center">
                   <div>
-                    <CardTitle className="border-b border-orange-600">
+                    <CardTitle className="border-b border-purple-600">
                       {a.title}
                     </CardTitle>
                     <CardContent className="pt-4">

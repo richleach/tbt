@@ -4,7 +4,7 @@ import Sheet from "../components/Sheet";
 const Header = () => {
   return (
     <div className="container px-10 mx-auto mb-8">
-      <div className="inline-block w-full py-4 border-b border-orange-600 align-middle">
+      <div className="inline-block w-full py-4 border-b border-purple-600 align-middle">
         <div className="block md:float-left">
           <Link href="/">
             <Image
@@ -24,33 +24,33 @@ const Header = () => {
                     </Link>
                 ))} */}
 
-          {/* <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
+          {/* <span className="mt-12 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right">
             <Sheet />
           </span> */}
 
           <Link href={`/partners-and-friends/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-bottom cursor-pointer md:float-right">
+            <span className="mt-12 ml-4 font-semibold text-white align-bottom cursor-pointer md:float-right">
               Partners &amp; Friends
             </span>
           </Link>
           <Link href={`/store/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
+            <span className="mt-12 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right">
               Store
             </span>
           </Link>
 
           <Link href={`/ride-with-us/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
+            <span className="mt-12 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right">
               Ride With Us
             </span>
           </Link>
           <Link href={`/amazon-favorites/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
+            <span className="mt-12 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right">
               Amazon Favorites
             </span>
           </Link>
           <Link href={`/videos/`}>
-            <span className="mt-12 ml-4 font-semibold text-orange-600 align-middle cursor-pointer md:float-right">
+            <span className="mt-12 ml-4 font-semibold text-white align-middle cursor-pointer md:float-right">
               Videos
             </span>
           </Link>

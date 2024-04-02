@@ -22,7 +22,7 @@ export default function RootLayout({
         className={inter.className}
         style={{
           background:
-            "radial-gradient(circle, rgba(172,172,172,1) 0%, rgba(0,0,0,1) 60%)",
+            "radial-gradient(circle, rgba(147,51,234,1) 0%, rgba(0,0,0,1) 30%)",
         }}
       >
         <Header />

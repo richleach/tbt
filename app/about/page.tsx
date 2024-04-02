@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="container px-10 mx-auto mb-8">
       <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
-        <div className="pl-3" style={{ borderLeft: "thin solid #EA580C" }}>
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>About Us</h2>
+        <div className="pl-3" style={{ borderLeft: "thin solid #9333EA" }}>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>About Us</h2>
           <Image
             src="/images/MHhelmet.png"
             height={480}

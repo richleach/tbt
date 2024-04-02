@@ -63,9 +63,9 @@ export default function Contact() {
       <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
         <div
           className="pl-3 w-full"
-          style={{ borderLeft: "thin solid #EA580C" }}
+          style={{ borderLeft: "thin solid #9333EA" }}
         >
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>Contact Us</h2>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>Contact Us</h2>
           <div className="p-4 pb-12 mb-8 bg-white rounded-lg shadow-lg">
             <div className="container">
               <div className="showcase-form card">
@@ -115,7 +115,7 @@ export default function Contact() {
                     <input
                       type="submit"
                       value="Send"
-                      className="inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 bg-blue-600 rounded-full cursor-pointer ease hover:bg-indigo-900"
+                      className="inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 bg-purple-600 rounded-full cursor-pointer ease hover:bg-indigo-900"
                     />
                   </div>
                 </form>

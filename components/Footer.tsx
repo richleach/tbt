@@ -13,7 +13,7 @@ function Footer() {
     <div className="container px-10 mx-auto mb-8">
       <footer
         className="flex flex-col  text-white items-center"
-        style={{ borderTop: "thin solid #EA580C" }}
+        style={{ borderTop: "thin solid #9333EA" }}
       >
         <div className="container px-6 mx-auto">
           <div className="flex w-full py-4 px-2 items-center">
@@ -44,17 +44,17 @@ function Footer() {
                 target="_blank"
               />
             </nav>
-            <div className="align-bottom text-left mx-auto text-orange-600 ml-1 mr-1">
+            <div className="align-bottom text-left mx-auto text-white ml-1 mr-1">
               &copy; Copyright {getYear()} The Beaten Trail, LLC. All Rights
               Reserved.
             </div>
             <Link href={`/about/`}>
-              <span className="ml-4 mr-4 font-semibold text-orange-600 cursor-pointer">
+              <span className="ml-4 mr-4 font-semibold text-white cursor-pointer">
                 About
               </span>
             </Link>
             <Link href={`/contact/`}>
-              <span className="ml-4 mr-4 font-semibold text-orange-600 cursor-pointer">
+              <span className="ml-4 mr-4 font-semibold text-white cursor-pointer">
                 Contact
               </span>
             </Link>

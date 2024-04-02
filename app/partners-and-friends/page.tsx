@@ -105,9 +105,9 @@ const amazonData = {
 export default function partnersAndFriends() {
   return (
     <div className="container px-10 mx-auto mb-8">
-      <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
-        <div className="pl-3" style={{ borderLeft: "thin solid #EA580C" }}>
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>
+      <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6 shadow-purple-600 border-purple-600">
+        <div className="pl-3" style={{ borderLeft: "thin solid #9333EA" }}>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>
             Partners &amp; Friends
           </h2>
           {/* <div

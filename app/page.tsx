@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex  flex-col items-center justify-between text-white">
+    <main className="flex  flex-col items-center justify-between text-white ">
       {/* start */}
 
       <div
-        className="gap-4 text-black md:grid md:grid-cols-5 md:grid-rows-6"
+        className="gap-4 text-black md:grid md:grid-cols-5 md:grid-rows-6 "
         style={{ paddingBottom: "32px" }}
       >
         {/* trail therapy */}
         <div
-          className="flex justify-center mb-4 bg-white border-2 rounded-lg md:col-span-3 md:row-span-6  md:mb-0 p-4"
+          className="flex justify-center mb-4 border-purple-600 border-2 rounded-lg md:col-span-3 md:row-span-6  md:mb-0 p-4 shadow-md shadow-purple-600"
           style={{
             backgroundImage: 'url("../images/dualSxs.png")',
             backgroundSize: "cover",
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         {/* visit our store */}
         <div
-          className="col-start-4 p-2 mb-4 text-black bg-white border-2 rounded-lg md:col-span-2 md:row-span-2  md:mb-0"
+          className="col-start-4 p-2 mb-4 text-black border-purple-600 border-2 rounded-lg md:col-span-2 md:row-span-2  md:mb-0 shadow-md shadow-purple-600"
           style={{
             backgroundImage: 'url("../images/storesOpen.png")',
             backgroundSize: "cover",
@@ -42,7 +42,7 @@ export default function Home() {
         >
           <div className="flex justify-center" style={{ marginTop: "10px" }}>
             <Link href={`/store/`}>
-              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-purple-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
                 Our Store is Now Open
               </button>
             </Link>
@@ -58,10 +58,10 @@ export default function Home() {
           </Link>
         </div>
         {/* watch us on youtube */}
-        <div className="col-start-4 row-start-3 mb-5 md:mb-3 border-2 rounded-lg  md:col-span-2 md:row-span-2 bg-white">
+        <div className="col-start-4 row-start-3 mb-5 md:mb-3 border-2 rounded-lg  md:col-span-2 md:row-span-2 bg-white border-purple-600 shadow-md shadow-purple-600">
           <div className="flex justify-center" style={{ marginTop: "10px" }}>
             <Link href={`/videos/`}>
-              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-purple-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
                 Watch Us On Youtube
               </button>
             </Link>
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         {/* amazon products */}
         <div
-          className="col-start-4 row-start-4 bg-white border-2 rounded-lg md:col-span-2 md:row-span-2 md:-mt-3"
+          className="col-start-4 row-start-4 bg-white border-2 rounded-lg md:col-span-2 md:row-span-2 md:-mt-3 border-purple-600 shadow-md shadow-purple-600"
           style={{
             backgroundImage: 'url("../images/amazonScreen.png")',
             backgroundSize: "cover",
@@ -89,7 +89,7 @@ export default function Home() {
             style={{ marginTop: "10px" }}
           >
             <Link href={`/amazon-favorites/`}>
-              <button className="px-3 py-1 text-2xl font-semibold text-white bg-orange-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
+              <button className="px-3 py-1 text-2xl font-semibold text-white bg-purple-600 border border-white rounded-full hover:text-black hover:bg-white-900 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 drop-shadow-lg">
                 Featured Amazon Product
               </button>
             </Link>
@@ -103,7 +103,7 @@ export default function Home() {
               className="mx-auto drop-shadow-xl border-2 border-orange-600 rounded-lg"
             />{" "}
             <div className="flex justify-center" style={{ marginTop: "10px" }}>
-              <button className="px-4 text-center  text-2xl text-black-900 font-semibold bg-white rounded-full border-orange-600 border hover:text-white hover:bg-orange-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 drop-shadow-lg">
+              <button className="px-4 text-center  text-2xl text-black-900 font-semibold bg-white rounded-full border-orange-600 border hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 drop-shadow-lg">
                 LED Rechargeable Work Light
               </button>
             </div>
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </div>
         {/* panorama */}
-        <div className=" col-span-5 row-start-5 text-white bg-black border-2 rounded-lg md:col-span-5 md:row-span-5 flex justify-center mt-5 md:mt-2">
+        <div className=" col-span-5 row-start-5 text-white bg-black border-2 rounded-lg md:col-span-5 md:row-span-5 flex justify-center mt-5 md:mt-2 shadow-md shadow-purple-600 border-purple-600">
           <Image
             src="/images/the-beaten-trail-panorama.png"
             width={1300}

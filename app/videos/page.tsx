@@ -23,9 +23,9 @@ export default async function PlaylistPage() {
   //console.log(data.items.snippet)
   return (
     <div className="container px-10 mx-auto mb-8">
-      <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
+      <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6 shadow-purple-600 border-purple-600">
         <div className="pl-3 w-full">
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>
             YouTube Playlist
           </h2>
           <h4 className="text-center">

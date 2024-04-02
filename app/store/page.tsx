@@ -74,9 +74,9 @@ export default function store() {
       <main className="flex flex-col items-center justify-between text-black bg-white border-2 rounded-lg p-6">
         <div
           className="pl-3 w-full"
-          style={{ borderLeft: "thin solid #EA580C" }}
+          style={{ borderLeft: "thin solid #9333EA" }}
         >
-          <h2 style={{ borderBottom: "thin solid #ea580c" }}>The Store</h2>
+          <h2 style={{ borderBottom: "thin solid #9333EA" }}>The Store</h2>
           <h4 className="text-center" style={{ paddingBottom: "20px" }}>
             By popular request, our award winning apparel line. T-shirts, short
             sleeves, long sleeves, hoodies, pants, oh and ask us about the
