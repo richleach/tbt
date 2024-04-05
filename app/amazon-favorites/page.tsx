@@ -14,11 +14,11 @@ const amazonData = {
   amazon: [
     {
       id: "1",
-      title: "GoPro 8",
-      image: "https://m.media-amazon.com/images/I/71jVq6t7DmL._AC_SX679_.jpg",
+      title: "GoPro HERO 10",
+      image: "https://m.media-amazon.com/images/I/51mcDVUBaxL._AC_SX679_.jpg",
       description:
-        "GoPro HERO8 Black E-Commerce Packaging - Waterproof Digital Action Camera with Touch Screen 4K HD Video 12MP Photos Live Streaming Stabilization",
-      link: "https://www.amazon.com/dp/B091G1TJ32/ref=cm_sw_r_as_gl_api_gl_i_D0H356CERGZ2R771W8XF?_encoding=UTF8&psc=1&linkCode=ml1&tag=thebeatentr0d-20",
+        "GoPro HERO10 Black - Waterproof Action Camera with Front LCD and Touch Rear Screens, 5.3K60 Ultra HD Video, 23MP Photos, 1080p Live Streaming, Webcam, Stabilization",
+      link: "https://www.amazon.com/dp/B09QD75B95/ref=cm_sw_r_as_gl_api_gl_i_83HWK4QDF5MTTTP9E53E?linkCode=ml1&tag=thebeatentr0d-20&th=1",
     },
     {
       id: "2",
@@ -109,15 +109,16 @@ export default function amazonFavorites() {
               <Card key={a.id} className="flex flex-col justify-between">
                 <CardHeader className="flex-row gap-4 items-center">
                   <div>
-                    <CardTitle className="border-b border-purple-600">
+                    <CardTitle className="border-b border-purple-600 text-center">
                       {a.title}
                     </CardTitle>
-                    <CardContent className="pt-4">
+                    <CardContent className="pt-4 m-auto">
                       <Image
                         src={a.image}
                         alt={a.title}
                         width={200}
                         height={200}
+                        className="m-auto"
                       ></Image>
                     </CardContent>
                     <CardDescription>{a.description}</CardDescription>
