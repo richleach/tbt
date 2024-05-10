@@ -21,7 +21,7 @@ export default function moab2024() {
           <h2 style={{ borderBottom: "thin solid #9333EA" }}>Moab 2024</h2>
           <div className="p-2 mb-4 mt-4 text-black  md:col-span-2 md:row-span-2  md:mb-0 drop-shadow-xl">
             <Image
-              src="/images/moab2024.jpg"
+              src="/images/moab2024.JPG"
               height={480}
               width={640}
               alt="Moab was awesome"
@@ -48,7 +48,7 @@ export default function moab2024() {
           </div>
           <div className="p-2 mb-4 mt-4 text-black  md:col-span-2 md:row-span-2  md:mb-0 drop-shadow-xl">
             <Image
-              src="/images/moab2024-05.jpg"
+              src="/images/moab2024-05.JPG"
               height={640}
               width={480}
               alt="We found the BEST tour guides!"
