@@ -14,22 +14,22 @@ export default function Home() {
         <div
           className="flex justify-center mb-4 border-purple-600 border-2 rounded-lg md:col-span-3 md:row-span-6  md:mb-0 p-4 shadow-md shadow-purple-600"
           style={{
-            backgroundImage: 'url("../images/dualSxs.png")',
+            backgroundImage: 'url("../images/moab2024-02.png")',
             backgroundSize: "cover",
           }}
         >
           <h2
-            className="text-4xl pt-12 font-extrabold text-center text-black"
-            style={{ textShadow: "1px 1px #fff" }}
+            className="text-7xl pt-28 font-extrabold text-center text-slate-300"
+            style={{
+              textShadow: "1px 1px #000",
+              lineHeight: "7.5rem",
+              fontSize: "6.0rem",
+            }}
           >
-            Your home for
-          </h2>
-
-          <h2
-            className="text-7xl pt-24 font-extrabold text-center"
-            style={{ textShadow: "1px 1px #fff" }}
-          >
-            Trail Therapy
+            <Link href={`/moab2024/`}>
+              Thank you
+              <br /> MOAB
+            </Link>
           </h2>
         </div>
         {/* visit our store */}
