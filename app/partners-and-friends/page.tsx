@@ -108,7 +108,7 @@ const sponsorData = {
     },
     {
       id: "12",
-      title: "Potter County",
+      title: "Potter County ATV & UTV Club",
       image: "/images/partners/potterCounty.png",
       description:
         "GoPro HERO8 Black E-Commerce Packaging - Waterproof Digital Action Camera with Touch Screen 4K HD Video 12MP Photos Live Streaming Stabilization",
@@ -140,7 +140,7 @@ export default function partnersAndFriends() {
                 <CardHeader className="flex-row gap-4 items-center">
                   <div className="w-full">
                     <CardTitle className="border-b border-orange-600">
-                      {a.title}
+                      <center>{a.title}</center>
                     </CardTitle>
                     <CardContent className="pt-4 items-center align-middle">
                       <center>
@@ -169,7 +169,12 @@ export default function partnersAndFriends() {
             ))}
           </div>
 
-          <h2 style={{ borderBottom: "thin solid #9333EA" }}>
+          <h2
+            style={{
+              borderBottom: "thin solid #9333EA",
+              paddingTop: "20px",
+            }}
+          >
             Partners &amp; Friends
           </h2>
 
@@ -190,7 +195,7 @@ export default function partnersAndFriends() {
                 <CardHeader className="flex-row gap-4 items-center">
                   <div className="w-full">
                     <CardTitle className="border-b border-orange-600">
-                      {a.title}
+                      <center>{a.title}</center>
                     </CardTitle>
                     <CardContent className="pt-4 items-center align-middle">
                       <center>
