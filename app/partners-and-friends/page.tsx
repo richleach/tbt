@@ -100,11 +100,11 @@ const sponsorData = {
     },
     {
       id: "3",
-      title: "CFSNAP.COM",
-      image: "/images/partners/cfsnap.png",
+      title: "Trailside Ranch",
+      image: "/images/partners/trailsideRanch.png",
       description:
-        "X~PWR H8 All-Weather External Power Kit for GoPro HERO8 with 66'' Cable",
-      link: "https://www.cfsnap.com",
+          "Let us help you get ready for your get away!",
+      link: "https://www.trailsideranch-ny.com",
     },
     {
       id: "12",
